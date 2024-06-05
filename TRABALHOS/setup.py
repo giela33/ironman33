@@ -3,7 +3,7 @@ import cx_Freeze
 executaveis = [ 
                 cx_Freeze.Executable(script="main.py")]
 cx_Freeze.setup(
-    name = "Iron Man",
+    name = "PNGS IRONMAN",
     options={
         "build_exe":{
             "packages":["pygame"],
@@ -11,4 +11,7 @@ cx_Freeze.setup(
         }
     }, executables = executaveis
 )
-    
+
+
+# python setup.py build
+# puthon setup.py bdist_msi
